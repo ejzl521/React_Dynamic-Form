@@ -1,0 +1,117 @@
+.survey-wrapper{
+  width: 900px;
+  min-height: 60vh;
+  padding: 50px;
+  margin: 20px auto;
+  border-radius: 10px;
+  background-color: #fff;
+
+  .error-message{
+    font-size: 12px;
+    color: blueviolet;
+  }
+
+  .survey-header{
+    .survey-title{
+      border-bottom: 2px solid #ddd;
+      transition: border-bottom 500ms;
+      &:focus-within{
+        border-bottom: 2px solid blue;
+      }
+      input{
+        padding: 0;
+        font-size: 2em;
+        font-weight: bold;
+      }
+    }
+  }
+
+
+  .question-wrapper{
+    padding: 20px;
+    margin-top: 40px;
+    border: 2px solid skyblue;
+    border-radius: 10px;
+    transition: border 500ms;
+    &:hover {
+      border: 2px solid blue;
+    }
+
+    .question-header{
+      display: flex;
+      justify-content: space-between;
+      .question-title{
+        width: 70%;
+        border-bottom: 2px solid #ddd;
+        transition: border-bottom 500ms;
+        &:focus-within{
+          border-bottom: 2px solid blue;
+        }
+        input{
+          padding: 0;
+          font-size: 1.5em;
+          font-weight: bold;
+        }
+      }
+    }
+
+    .obj-wrapper{
+      margin: 20px 0;
+      .obj-choice{
+        display: flex;
+        align-items: center;
+        .obj-choice-input{
+          border-bottom: 2px solid #ddd;
+          transition: border-bottom 500ms;
+          margin: 0 7px;
+          &:focus-within{
+            border-bottom: 2px solid blue;
+          }
+          input{
+            padding: 0;
+          }
+        }
+      }
+      .img-obj-choice{
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+
+      }
+    }
+
+    .question-footer{
+      margin-top: 30px;
+      display: flex;
+      flex-direction: row-reverse;
+      justify-content: space-between;
+      font-weight: bold;
+      .delete-question-button{
+        display: flex;
+        align-items: center;
+        cursor: pointer;
+        color: #FF3399;
+      }
+      .add-choice-button{
+        display: flex;
+        align-items: center;
+        cursor: pointer;
+        color: #6f23d3;
+      }
+    }
+  }
+
+  .survey-footer{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+
+  }
+  .add-question-button{
+    font-size: 1.3em;
+    font-weight: bold;
+    color: #6f23d3;
+    cursor: pointer;
+  }
+
+}
