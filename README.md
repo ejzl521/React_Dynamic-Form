@@ -13,7 +13,7 @@
 - 이미지 업로더 소스코드(https://github.com/ejzl521/Image_Uploader_React) 변형해서 formik의 state에 이미지 파일, 미리 보기 url 저장
 - 문항이 하나도 없어도 제출이 되는 부분 보완 (최소 한 문제 이상 제출해야 submit이 가능하도록 validation schema 보완)
 
-![사진기능2](https://user-images.githubusercontent.com/55455103/142744235-18ce8f3e-509b-46db-ad1a-58773d197769.gif)
+![사진기능4](https://user-images.githubusercontent.com/55455103/143774762-8c8dd0e6-b6d6-48fe-a55d-f240308e8904.gif)
 
 
 # Formik 사용법 ↓↓↓
