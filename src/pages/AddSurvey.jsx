@@ -207,7 +207,7 @@ const AddSurvey = (props) => {
                       </div>
 
                       <div className="choice-type">
-                        <Select style={{ width: 130 }} defaultValue={item.type}
+                        <Select style={{ width: 130 }} value={item.type}
                           onChange={(value) => {
                             const changed_type = { ...values };
                             if (value === "objective") {
